@@ -18,6 +18,7 @@ services:
 
   db:
     container_name: jtl-reporter-db
+    user: root
     build:
       context: ./db/
       dockerfile: Dockerfile
